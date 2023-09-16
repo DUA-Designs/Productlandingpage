@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>freeCodeCamp</title>
+    <style type="text/css">
+    	*{
+    		margin: 0;
+    		padding: 0;
+    		font-family: 'Lato', sans-serif;
+    	}
+
+    	 
+    	img{
+    		 
+    		max-width: 300px;
+    		max-height: 50px;
+    	}
+			 
+    	#nav-bar{
+    		width: 100%; position:fixed;
+
+    		display: flex;
+    		justify-content: space-between;
+    		align-items: center;
+    		 
+    		padding:10px;
+    		z-index: 1;
+    		background-color: #ddd;
+    	}
+    	#nav-bar #details{
+    		width: 40%;
+    	}
+    	#nav-bar   ul{
+    		list-style: none;
+    		width: 100%;
+
+    		display: flex;
+    		align-items: center;
+    		justify-content: space-around;
+    	}
+    	 
+    	#nav-bar ul   a{
+    		text-decoration: none;
+    		font-size: 17px;
+    	}
+    	#space{
+    		 
+    		 width: 50%;
+    		 margin: 0 auto;
+    		 margin-top: 2%;
+    		 text-align: center;
+
+    	}
+    	#space h1{
+    		font-size: 25px;
+    		padding: 10px;
+    	}
+    	#space button{display: block;
+    		width: 150px;
+    		margin: 0 auto;
+    		padding: 5px;
+    		font-size: 18px;
+    		 font-weight:900;
+    		background-color:orange;
+
+    	}
+    	#space #email{
+    		margin: 10px;
+    		width: 300px;
+    		padding: 8px;
+    	}
+    	@media only screen and (max-width:500px){
+    		#header{
+    			  flex-wrap: wrap;
+    		}
+    		#nav-bar ul {
+    			flex-wrap: wrap;
+    		}
+    	            
+    		 
+    	}
+    	#container{
+    		width: 80%;
+    		margin: 0 auto;
+    		margin-top: 4%;
+    	}
+    	#container #outer-box{
+    		display: flex;
+    		justify-content: space-around;
+    		padding: 40px;
+
+
+    	}
+    	#container #outer-box #inner-box1{
+    		width: 15%;
+    		 text-align: center;
+    	 
+    	}
+    	#container #outer-box #inner-box1 i{
+    		font-size: 3em;
+    		color: orange;
+    	}
+    	#container #outer-box #inner-box2{
+    		width: 80%;
+    		 
+    	}
+    	#container #outer-box #inner-box2 p{
+    		font-size: 18px;
+    	}
+    		#container #outer-box #inner-box2 h3{
+    			font-size: 25px;
+    		}
+
+
+
+            #container2{
+            	height: 300px;
+            	width: 80%;
+            	 
+            	margin: 0 auto;
+            	margin-top: 4%;
+            	display: flex;
+            	justify-content: space-around;
+            }
+            #container2 #box2{
+            	width:32%;
+            	 
+            	display: grid;
+            	text-align: center;
+             
+            	border:1px solid black;
+
+            }
+            #container2 #box2 h3{
+            	background-color: #dddddd;
+            	height: 40px;
+            	text-align: center;
+            	padding-top: 15px;
+            }
+            #container2 #box2 button{
+            	width: 100px;
+            	height: 40px;
+            	background-color: #f1c40f;
+            	font-size: 22px;
+
+            }
+
+
+
+
+    		footer{
+    			background-color: #ddd;
+    			height:30px;
+    			text-align: end;
+    			margin: 0 auto;
+    			margin-top: 5%;
+    			padding: 20px;
+
+
+width: 80%;
+    		}
+    		footer ul{
+
+    			display: flex;
+    		     margin-left: 78%;
+    			justify-content: space-between;
+    			width: 19%;
+    			list-style: none;
+    			 
+    		}
+    		footer ul li a{
+    			color: black;
+    			text-decoration: none;
+    		}
+footer #copy{
+	padding: 10px;
+}
+    
+    </style>
+    
+  </head>
+  <body>
+<header id="header">
+	
+	<nav id="nav-bar">
+		<div><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img"></div>
+		<div id="details"><ul>
+			<li  > <a class="nav-link" href="#container">Features</a> </li>
+				<li  ><a class="#video" href="#space">How It Works </a></li> 
+						<li > <a class="nav-link" href="#container2">Pricing</a> </li> </ul></div>
+	</nav></header>
+	<br>
+	<br>
+	 <div id="space"><h1>Handcrafted, home-made masterpieces</h1>
+	 	<form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+		 		<input type="email" name="email" id="email" placeholder="Enter your email address">
+		 		<button type="email-submit">Get Started</button>
+		 	</form></div>
+		 	<div id="container">
+		 		<div id="outer-box" ><div id="inner-box1"><i class="fa-solid fa-fire-flame-curved"></i></div><div id="inner-box2"><h3>
+Premium Materials</h3><p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></div></div>
+		 		<div id="outer-box"><div id="inner-box1"><i class="fa-solid fa-truck"></i></div><div id="inner-box2"><h3>
+Fast Shipping</h3><p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></div></div>
+		 		<div id="outer-box"><div id="inner-box1"><i class="fa-solid fa-battery-full"></i></div><div id="inner-box2"><h3>
+Quality Assurance</h3><p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></div></div>
+		 	</div>
+
+<div id="space">
+		 <video controls="" id="video" width="500px" height="300px;"><source src="https://www.youtube.com/watch?v=y8Yv4pnO7qc&embeds_referring_euri=https%3A%2F%2Fproduct-landing-page.freecodecamp.rocks%2F&feature=emb_yt_watermark" type="video/ogg">
+		 	<source src="https://youtu.be/y8Yv4pnO7qc" type="video/mp4"></video> </div>
+		 	<div id="container2">
+		 		<div id="box2"><h3>TENOR TROMBONE</h3><h1>$600</h1><p>lorem ipsum</p><p>Lorem ipsum</p><div><button>Select</button></div></div>
+		 		<div id="box2"><h3>BASS TROMBONE</h3><h1>$900</h1><p>lorem ipsum</p><p>Lorem ipsum</p><div><button>Select</button></div></div>
+		 		<div id="box2"><h3>BASS TROMBONE</h3><h1>$1200</h1><p>lorem ipsum</p><p>Lorem ipsum</p><div><button>Select</button></div></div>
+		 		
+		 	</div>
+		 	
+       <footer  >
+	<ul >
+		<li><a href=""> Privacy </a></li>
+		<li><a href=""> Terms  </a></li>
+		<li><a href=""> Contracts </a></li>
+	</ul>
+	<div id="copy">Copyright 2016, Original Trombones</div>
+</footer>
+
+
+ 
+  </body>
+</html>
